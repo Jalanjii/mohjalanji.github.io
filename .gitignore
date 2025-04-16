@@ -2,4 +2,5 @@
 */.DS_Store
 .jekyll-cache
 _site/*
+.idea/*
 _snap_md5.txt
