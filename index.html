@@ -5,110 +5,16 @@ title: Home
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
-  <p> 
-    My research interest is in Human-Computer Interaction. 
-    I am currently working on designing and creating virtual humans for human-in-the-loop mental health evaluations and interventions. 
+    <p> 
+      My interests are in all that relates to Statistics & Applied Artificial Intelligence. 
+      I am an apprentice AI Engineer at <a href="{{ https://www.aptiv.com/fr/aptiv-en-france }}" target="_blank">APTIV</a>.<br/> working on interesting automobile projects !
     </p> 
     <p>
-      Currently, I am a Ph.D. student in the Computer Science department at the University of Illinois at Chicago. My work is under the supervision and direction of Professor <a href="https://debaleena.com/" target="_blank">Debaleena Chattopadhyay</a> at the <a href="https://hci.cs.uic.edu/" target="_blank">UIC Human-Computer Interaction Lab</a> (UIC HCI Lab). 
-      I got my Masters in Computer Science from the University of Illinois at Chicago in 2019. My Master's research focused on Human-Computer Interaction. I explored practices and needs for personal pollution monitoring.
-      Before that, I got my B.Sc. in Computer Engineering from Jordan University of Science and Technology.
-    </p>
-    <p>
-      I have work experience at Caterpillar as a UX/UI engineer to work on the design of cutting-edge engineering software.
+      I am currently finishing my masters in AI & Data Science at <a href="{{ https://dsti.school/ }}" target="_blank">Data ScienceTech Institue</a>.<br/> in Paris. Graduation is expected in September 2025.
+      Before that, I got my Bachelor's in Statistics & Data Analytics at Seconda Università degli Studi di Napoli with a joint double degree from Université Sorbonne Paris Nord.
     </p>
 </div>
 
-
-<!-- ========== PUBLICATIONS ========== -->
-<div class="docs-section" id="research">
-  <h4>Research</h4>
-
-  <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
-  <!--<sup>‡</sup> indicates equal contribution.-->
-  </p>
-
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#publications">Selected Publications</div></li>
-    <li><div class="button" data-ref="#talks">Talks and Presentations</div></li>
-  </ul>
-
-  <div class="tab-content">
-    <div class="tab-pane active" id="publications">
-      {% assign publications = site.data.publications.papers | where: "type", "publication" %}
-      {% for paper in publications %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          <p><i>{{ paper.venue }}</i></p>
-           <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
-
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
-
-            {% if paper.data %}
-              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
-            {% endif %}
-
-          </div>
-        </div>
-      {% endfor %}
-    </div> 
-
-    <div class="tab-pane" id="talks">
-      {% assign talks =  site.data.publications.papers | where: "type", "talk" %}
-      {% for paper in talks %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          <p><i>{{ paper.venue }}</i></p>
-           <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
-
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
-
-            {% if paper.data %}
-              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
-            {% endif %}
-
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
 
 <!-- ========== PROJECTS ========== -->
 <div class="docs-section" id="projects">
@@ -187,8 +93,8 @@ title: Home
 <div class="docs-section" id="resume">
   <h4>Vitæ</h4>
 
-  <p><a href={{ "/assets/cv/Sakhnini_Resume.pdf" | prepend: site.baseurl }} target="_blank">Resume</a></p>
-  <p><a href={{ "/assets/cv/Sakhnini_CV.pdf" | prepend: site.baseurl }} target="_blank">Full CV</a></p>
+  <p><a href={{ "/assets/cv/CV_ALJALANJI.pdf" | prepend: site.baseurl }} target="_blank">Resume</a></p>
+  <!-- <p><a href={{ "/assets/cv/Sakhnini_CV.pdf" | prepend: site.baseurl }} target="_blank">Full CV</a></p> -->
 
   <!-- The Timeline -->
   <ul class="timeline">
@@ -210,41 +116,8 @@ title: Home
   </ul>
 </div>
 
-<!-- ========== COMMUNITY SERVICE ========== 
-<div class="docs-section" id="community_service">
- <h4>Community Service</h4>
-  <div id="projects-current">
-    {% assign community_service = site.data.community_service.community_service %}
-    {% for service in community_service %}
-      {% assign index_modulo = forloop.index0 | modulo:3 %}
-      {% if index_modulo == 0 %}
-        <div class="row">
-      {% endif %}
-
-        <div class="four columns">
-          <div class="project-container">
-              <div class="project-image-container">
-                <a href="{{ service.url }}" target="_blank">
-                  <img src="{{ service.thumbnail }}" class="u-max-full-width" />
-                </a>
-              </div>
-              <div class="project-caption">
-                <b>{{ service.title }}</b>
-              </div>
-
-          </div>
-        </div>
-
-      {% if index_modulo == 2 %}
-        </div>
-      {% endif %}
-    {% endfor %}
-    </div>
-
-</div>
--->
 
 <div class="docs-section" id="template">
     <h6>Credits</h6>
-    This website was built using the template by <a href="https://web.stanford.edu/~msaveski/">Martin Saveski</a>.
+    This website was built using the template by <a href="https://faculty.washington.edu/msaveski/">Martin Saveski</a>.
 </div>

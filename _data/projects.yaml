@@ -1,68 +1,31 @@
 projects:
 
-  - title: "Exploring Patient Portal Use in People with AlZheimer's Disease and Related Dementias (ADRD)"
-    thumbnail: "assets/projects/2.png"
-    url: "projects/adrd_use_patient_portal.html"
+  - title: "Motif-based clustering"
+    thumbnail: "assets/projects/retail_clustering.jpg"
+    url: "projects/retail_clustering.html"
     status: "current"
 
-  - title: "Exploring Gender Differences in Mobile Technology Support in Older Adults"
-    thumbnail: "assets/projects/4.png"
-    url: "projects/older_adults_gender_tech_support.html"
+  - title: "2d_game"
+    thumbnail: "assets/projects/2d_game.jpg"
+    url: "projects/2d_game.html"
     status: "current"  
 
-  - title: "Exploring Mobile Technology Support in Older Adults"
-    thumbnail: "assets/projects/3.png"
-    url: "projects/older_adults_feelings_tech_support.html"
+  - title: "Imageeditor on android"
+    thumbnail: "assets/projects/imageeditor.jpg"
+    url: "projects/imageeditor.html"
     status: "past"  
 
-  - title: "Virtual Humans in Mental Health Evaluations & Interventions"
-    thumbnail: "assets/projects/vh_project.png"
-    url: "projects/virtual_humans.html"
+  - title: "citymapper of city of Paris"
+    thumbnail: "assets/projects/citymapper.jpg"
+    url: "projects/citymapper.html"
     status: "past"  
 
-  - title: "The Design of Fact-Checking Smartphone Apps for Older Adults"
-    thumbnail: "assets/projects/apps.png"
-    url: "projects/fact_checking.html"
+  - title: "visualization tools on python"
+    thumbnail: "assets/projects/viz_tools.jpg"
+    url: "projects/viz_tools.html"
     status: "past" 
 
-  - title: "Does a Social Robot help Older Adults learn using Mobile Applications?"
-    thumbnail: "assets/projects/robot.jpeg"
-    url: "projects/temi.html"
-    status: "past"  
-
-  - title: "Human Gait Visualization"
-    thumbnail: "assets/projects/gait.png"
-    url: "projects/gait.html"
-    status: "past"  
-  
-  - title: "D3 Visualization: Gun Violence Victims"
-    thumbnail: "assets/projects/d3vis.bmp"
-    url: "projects/d3vis.html"
-    status: "past"  
-
-  - title: "User Preferences in Personal Pollution Monitoring Technologies"
-    thumbnail: "assets/projects/study3.png"
-    url: "projects/user_preferences.html"
+  - title: "codeskulptor games"
+    thumbnail: "assets/projects/blackjack.jpg"
+    url: "projects/blackjack.html"
     status: "past" 
-
-  - title: "Trip Route Air Quality Visualizer"
-    thumbnail: "assets/projects/aqi.png"
-    url: "projects/aqi.html"
-    status: "past" 
-
-  - title: "Human Interference with personal pollution monitoring wearables"
-    thumbnail: "assets/projects/ppm2.jpg"
-    url: "projects/interference.html"
-    status: "past"  
-
-  - title: "Designing low-cost personal pollution exposure tracker"
-    thumbnail: "assets/projects/myCityMeter/overview.jpg"
-    url: "projects/mycitymeter.html"
-    status: "past"   
-
-  - title: "Conversation aid for people with Dementia"
-    thumbnail: "assets/projects/dementia/Slide1.PNG"
-    url: "projects/walking_talk.html"
-    status: "past"   
-
-
