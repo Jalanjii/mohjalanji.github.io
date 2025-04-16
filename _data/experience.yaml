@@ -2,7 +2,7 @@ experiences:
 
 - place: "Data ScienceTech Institute"
   time: "2023 - now"
-  title: "Master's Degree Student"
+  title: "Master's Student"
   subtitle: "Applied MSc in Data Science & Artificial Intelligence"
   category: "school"
 
@@ -14,8 +14,8 @@ experiences:
 
 - place: "Université Sorbonne Paris Nord"
   time: "2021 - 2023"
-  title: "Bachelor's Degree Student"
-  subtitle: "Bachelor's in Computer Science <br/> Track: Data Analytics"
+  title: "Bachelor's Student"
+  subtitle: "Bachelor's Degree in Computer Science <br/> Track: Data Analytics"
   category: "school"
 
 - place: "ENSEA"
@@ -26,8 +26,8 @@ experiences:
 
 - place: "Seconda Università di Napoli"
   time: "2020 – 2023"
-  title: "Bachelor's Degree Student"
-  subtitle: "Bachelor's in Statistics & Data Analytics <br/> Thesis: Matrix Profile Motif-based Clustering for Retail"
+  title: "Bachelor's Student"
+  subtitle: "Bachelor's Degree in Statistics & Data Analytics <br/> Thesis: Matrix Profile Motif-based Clustering for Retail"
   category: "school"
 
 - place: "Freelance"
