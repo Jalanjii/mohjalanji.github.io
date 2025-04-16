@@ -5,80 +5,38 @@ title: Home
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
-  <p>
-  My research develops tools for analyzing <b>large-scale social data</b>, aiming to provide a better understanding of <b>social structure and behaviors</b> online while also impacting the <b>design of digital social systems</b>. 
-  My recent work has focused on social media algorithms
-  [<a href="assets/publications/2024_feedwizard/paper.pdf" target="_blank">ArXiv'24</a>,
-  <a href="assets/publications/2023_embedding_societal_values/paper.pdf" target="_blank">JOTS'23</a>],
-  reducing political polarization online 
-  [<a href="assets/publications/2022_newsbridge/paper.pdf" target="_blank">ICWSM'22a</a>,
-  <a href="assets/publications/2022_flipfeed/paper.pdf" target="_blank">ICWSM'22b</a>,
-  <a href="assets/publications/2021_balanced_inf_max/paper.pdf" target="_blank">WSDM'21</a>,
-  <a href="assets/publications/2018_social_mirror/paper.pdf" target="_blank">WWW'18</a>],
-  improving the health of online conversations 
-  [<a href="assets/publications/2021_dtox/paper.pdf" target="_blank">WWW'21</a>, 
-  <a href="assets/publications/2021_social_catalysts/paper.pdf" target="_blank">CSCW'21</a>], 
-  and causal inference in social systems 
-  [<a href="assets/publications/2024_ope_lipschitz/paper.pdf" target="_blank">ICML'24</a>,
-  <a href="assets/publications/2023_peer_review/paper.pdf" target="_blank">NeurIPS'23</a>,
-  <a href="assets/publications/2017_detecting_network_effects/paper.pdf" target="_blank">KDD'17</a>,
-  <a href="assets/publications/2019_biometrika/paper.pdf" target="_blank">Biometrika'19</a>]. 
-  My research often falls at the intersections of Social Networks, Machine Learning, and Causal Inference.
-  </p>
-
-  <p>
-  I'm an Assistant Professor in the Information School at the University of Washington.
-  Before joining UW, I was a Postdoc at Stanford University, mentored by <a href="https://web.stanford.edu/~jugander/" target="_blank">Johan Ugander</a>.
-  I received my Ph.D. from MIT in 2020 under the supervision of Deb Roy. 
-  Prior to coming to MIT, I spent one year in Paris and one year in Barcelona doing a M.Sc. in Data mining and Knowledge Management. 
-  I got my B.Sc. from Staffordshire University with First Class honors in Computer Science. 
-  Throughout my graduate studies, I spent several summers doing internships in industry, including Yahoo! Labs, Amazon, LinkedIn, and Facebook.
-  </p> 
+  <p> 
+    My research interest is in Human-Computer Interaction. 
+    I am currently working on designing and creating virtual humans for human-in-the-loop mental health evaluations and interventions. 
+    </p> 
+    <p>
+      Currently, I am a Ph.D. student in the Computer Science department at the University of Illinois at Chicago. My work is under the supervision and direction of Professor <a href="https://debaleena.com/" target="_blank">Debaleena Chattopadhyay</a> at the <a href="https://hci.cs.uic.edu/" target="_blank">UIC Human-Computer Interaction Lab</a> (UIC HCI Lab). 
+      I got my Masters in Computer Science from the University of Illinois at Chicago in 2019. My Master's research focused on Human-Computer Interaction. I explored practices and needs for personal pollution monitoring.
+      Before that, I got my B.Sc. in Computer Engineering from Jordan University of Science and Technology.
+    </p>
+    <p>
+      I have work experience at Caterpillar as a UX/UI engineer to work on the design of cutting-edge engineering software.
+    </p>
 </div>
 
-<!--
-<div class="docs-section" id="prospective-students">  
-  <h4>Prospective Students</h4>
-  <p>
-  <span style="display: inline-block; margin-bottom: 5px">
-    <b>I'm recruiting PhD students to start Fall 2025 at the University of Washington!</b> 
-  </span>
-  <br/> 
-  <span style="display: inline-block; margin-bottom: 5px">
-    I'm looking for students passionate about developing new <u>social media algorithms</u>, both broadly and within the scope of this <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2403434" target="_blank">NSF grant</a> (collaboration with Stanford and Northwestern). For other examples, please see my recent publications. <br/>
-  </span>
-  <span style="display: inline-block; margin-bottom: 5px">
-    Students with strong technical skills and background or interest in social network analysis, machine learning, causal inference, or natural language processing would be a great fit.
-  </span>
-  <br/>
-  <span style="display: inline-block; margin-bottom: 5px">
-    If you are interested, please apply to the UW iSchool <a href="https://ischool.uw.edu/programs/phd/admissions" target="_blank">PhD program</a> and mention me in your application.
-  </span>
-  <br/>
-  <span>
-    If you have any questions, feel free to reach out.
-  </span>
-  </p> 
-</div>
--->
 
 <!-- ========== PUBLICATIONS ========== -->
-<div class="docs-section" id="publications">
-  <h4>Publications</h4>
+<div class="docs-section" id="research">
+  <h4>Research</h4>
 
   <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
-  <sup>‡</sup> indicates equal contribution.
+  <!--<sup>‡</sup> indicates equal contribution.-->
   </p>
 
   <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <li><div class="button" data-ref="#papers-all">All</div></li>
+    <li><div class="button active" data-ref="#publications">Selected Publications</div></li>
+    <li><div class="button" data-ref="#talks">Talks and Presentations</div></li>
   </ul>
 
   <div class="tab-content">
-    <div class="tab-pane active" id="papers-selected">
-      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
-      {% for paper in selected_papers %}
+    <div class="tab-pane active" id="publications">
+      {% assign publications = site.data.publications.papers | where: "type", "publication" %}
+      {% for paper in publications %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
           <p>{{ paper.authors }}</p>
@@ -111,10 +69,11 @@ title: Home
           </div>
         </div>
       {% endfor %}
-    </div>
+    </div> 
 
-    <div class="tab-pane" id="papers-all">
-      {% for paper in site.data.publications.papers %}
+    <div class="tab-pane" id="talks">
+      {% assign talks =  site.data.publications.papers | where: "type", "talk" %}
+      {% for paper in talks %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
           <p>{{ paper.authors }}</p>
@@ -151,19 +110,19 @@ title: Home
   </div>
 </div>
 
-<!-- ========== PROJECTS ========== 
+<!-- ========== PROJECTS ========== -->
 <div class="docs-section" id="projects">
   <h4>Projects</h4>
 
   <ul class="tab-nav">
-    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
-    <li><div class="button" data-ref="#projects-all">All</div></li>
+    <li><div class="button active" data-ref="#projects-current">Current</div></li>
+    <li><div class="button" data-ref="#projects-past">Past</div></li>
   </ul>
 
   <div class="tab-content">
-    <div class="tab-pane active" id="projects-selected">
-      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
-      {% for project in selected_projects %}
+    <div class="tab-pane active" id="projects-current">
+      {% assign current_projects = site.data.projects.projects | where: "status", "current" %}
+      {% for project in current_projects %}
         {% assign index_modulo = forloop.index0 | modulo:3 %}
         {% if index_modulo == 0 %}
           <div class="row">
@@ -171,16 +130,13 @@ title: Home
 
           <div class="four columns">
             <div class="project-container">
-
                 <div class="project-image-container">
                   <a href="{{ project.url }}">
                     <img src="{{ project.thumbnail }}" class="u-max-full-width" />
                   </a>
                 </div>
-
                 <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
+                  <b>{{ project.title }}</b>
                 </div>
 
             </div>
@@ -190,10 +146,12 @@ title: Home
           </div>
         {% endif %}
       {% endfor %}
+      </div>
     </div>
 
-    <div class="tab-pane" id="projects-all">
-      {% for project in site.data.projects.projects %}
+    <div class="tab-pane" id="projects-past">
+      {% assign past_projects = site.data.projects.projects | where: "status", "past" %}
+      {% for project in past_projects %}
         {% assign index_modulo = forloop.index0 | modulo:3 %}
         {% if index_modulo == 0 %}
           <div class="row">
@@ -224,13 +182,13 @@ title: Home
   </div>
 
 </div>
--->
 
 <!-- ========== RESUME ========== -->
 <div class="docs-section" id="resume">
   <h4>Vitæ</h4>
 
-  <p>Full Resume in <a href={{ "/assets/cv/cv_web.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
+  <p><a href={{ "/assets/cv/Sakhnini_Resume.pdf" | prepend: site.baseurl }} target="_blank">Resume</a></p>
+  <p><a href={{ "/assets/cv/Sakhnini_CV.pdf" | prepend: site.baseurl }} target="_blank">Full CV</a></p>
 
   <!-- The Timeline -->
   <ul class="timeline">
@@ -252,17 +210,41 @@ title: Home
   </ul>
 </div>
 
-<div class="docs-section" id="template">
-  <h4>Website Design</h4>
-  Since I made this website, many people have found this Jekyll template useful [
-  {% for template_user in site.data.template_users.template_users %}
-  <a href="{{ template_user }}" target="_blank">{{ forloop.index }}</a>{% if forloop.last %}{% else %},{% endif %}
-  {% endfor %}
-  ].
-  <!--<br/>-->
-  You can find all the code needed to build your website in this <a href="https://github.com/msaveski/www_personal" target="_blank">GitHub repo</a>.
-  Feel free to use it. <br/>
+<!-- ========== COMMUNITY SERVICE ========== 
+<div class="docs-section" id="community_service">
+ <h4>Community Service</h4>
+  <div id="projects-current">
+    {% assign community_service = site.data.community_service.community_service %}
+    {% for service in community_service %}
+      {% assign index_modulo = forloop.index0 | modulo:3 %}
+      {% if index_modulo == 0 %}
+        <div class="row">
+      {% endif %}
 
-  If you end up using it, please link to here and drop me an email.
-  I'm always happy to see people using it.
-</div>  
+        <div class="four columns">
+          <div class="project-container">
+              <div class="project-image-container">
+                <a href="{{ service.url }}" target="_blank">
+                  <img src="{{ service.thumbnail }}" class="u-max-full-width" />
+                </a>
+              </div>
+              <div class="project-caption">
+                <b>{{ service.title }}</b>
+              </div>
+
+          </div>
+        </div>
+
+      {% if index_modulo == 2 %}
+        </div>
+      {% endif %}
+    {% endfor %}
+    </div>
+
+</div>
+-->
+
+<div class="docs-section" id="template">
+    <h6>Credits</h6>
+    This website was built using the template by <a href="https://web.stanford.edu/~msaveski/">Martin Saveski</a>.
+</div>

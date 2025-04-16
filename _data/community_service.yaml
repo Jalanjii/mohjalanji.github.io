@@ -1,0 +1,9 @@
+community_service:
+
+  - title: "Girls in Tech | Jordan"
+    thumbnail: "assets/community/git.jpg"
+    url: "http://jordan.girlsintech.org"
+
+  - title: "Jordanian Alumni of North America (JANA)"
+    thumbnail: "assets/community/jana.png"
+    url: "http://jana-edu.org/"

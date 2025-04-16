@@ -1,54 +1,68 @@
 projects:
-  - title: "Detecting Network Effects"
-    subtitle: "Randomizing Over Randomized Experiments"
-    thumbnail: "assets/projects/2016_network-ab/thumbnail.jpg"
-    url: "projects/2016_network-ab-testing.html"
-    selected: y
 
-  - title: "Human Atlas"
-    subtitle: "Tool for Mapping Social Networks"
-    thumbnail: "assets/projects/2016_human-atlas/thumbnail.png"
-    url: "projects/2016_human-atlas.html"
-    selected: y
+  - title: "Exploring Patient Portal Use in People with AlZheimer's Disease and Related Dementias (ADRD)"
+    thumbnail: "assets/projects/2.png"
+    url: "projects/adrd_use_patient_portal.html"
+    status: "current"
 
-  - title: "Responsive Communities"
-    subtitle: "Pilot project in Jun, Spain"
-    thumbnail: "assets/projects/2015_jun/thumbnail.png"
-    url: "projects/2015_jun.html"
-    selected: y
+  - title: "Exploring Gender Differences in Mobile Technology Support in Older Adults"
+    thumbnail: "assets/projects/4.png"
+    url: "projects/older_adults_gender_tech_support.html"
+    status: "current"  
 
-  - title: "Cold-Start Recommendations"
-    subtitle: "Learning Local Collective Embeddings"
-    thumbnail: "assets/projects/2014_item-cold-start/thumbnail.jpg"
-    url: "projects/2014_item-cold-start.html"
-    selected: n
+  - title: "Exploring Mobile Technology Support in Older Adults"
+    thumbnail: "assets/projects/3.png"
+    url: "projects/older_adults_feelings_tech_support.html"
+    status: "past"  
 
-  - title: "Semi-supervised Learning"
-    subtitle: "Iterative Hybrid Algorithm"
-    thumbnail: "assets/projects/2013_iterative-hybrid-algorithm/thumbnail.jpg"
-    url: "projects/2013_iterative-hybrid-algorithm.html"
-    selected: n
+  - title: "Virtual Humans in Mental Health Evaluations & Interventions"
+    thumbnail: "assets/projects/vh_project.png"
+    url: "projects/virtual_humans.html"
+    status: "past"  
 
-  - title: "Twitter Sentiment Analysis"
-    subtitle: "Analyzing Financial Tweets"
-    thumbnail: "assets/projects/2011_twitter-sentiment-analysis/thumbnail.png"
-    url: "projects/2011_twitter-sentiment-analysis.html"
-    selected: n
+  - title: "The Design of Fact-Checking Smartphone Apps for Older Adults"
+    thumbnail: "assets/projects/apps.png"
+    url: "projects/fact_checking.html"
+    status: "past" 
 
-  - title: "Wordnet Construction"
-    subtitle: "Automatic Wordnet Construction using Language Models"
-    thumbnail: "assets/projects/2010_wordnet-construction/thumbnail.jpg"
-    url: "projects/2010_wordnet-contruction.html"
-    selected: n
+  - title: "Does a Social Robot help Older Adults learn using Mobile Applications?"
+    thumbnail: "assets/projects/robot.jpeg"
+    url: "projects/temi.html"
+    status: "past"  
 
-  - title: "Fingerprint Verification"
-    subtitle: "Image processing class project"
-    thumbnail: "assets/projects/2010_fingerprint-verification/thumbnail.png"
-    url: "projects/2010_fingerprint-verification.html"
-    selected: n
+  - title: "Human Gait Visualization"
+    thumbnail: "assets/projects/gait.png"
+    url: "projects/gait.html"
+    status: "past"  
+  
+  - title: "D3 Visualization: Gun Violence Victims"
+    thumbnail: "assets/projects/d3vis.bmp"
+    url: "projects/d3vis.html"
+    status: "past"  
 
-  - title: "Connect Four AI Agent"
-    subtitle: "Iterative deepening and alpha-beta pruning"
-    thumbnail: "assets/projects/2009_connect-four/thumbnail.png"
-    url: "projects/2009_connect-four.html"
-    selected: n
+  - title: "User Preferences in Personal Pollution Monitoring Technologies"
+    thumbnail: "assets/projects/study3.png"
+    url: "projects/user_preferences.html"
+    status: "past" 
+
+  - title: "Trip Route Air Quality Visualizer"
+    thumbnail: "assets/projects/aqi.png"
+    url: "projects/aqi.html"
+    status: "past" 
+
+  - title: "Human Interference with personal pollution monitoring wearables"
+    thumbnail: "assets/projects/ppm2.jpg"
+    url: "projects/interference.html"
+    status: "past"  
+
+  - title: "Designing low-cost personal pollution exposure tracker"
+    thumbnail: "assets/projects/myCityMeter/overview.jpg"
+    url: "projects/mycitymeter.html"
+    status: "past"   
+
+  - title: "Conversation aid for people with Dementia"
+    thumbnail: "assets/projects/dementia/Slide1.PNG"
+    url: "projects/walking_talk.html"
+    status: "past"   
+
+
