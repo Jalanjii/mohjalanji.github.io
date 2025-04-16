@@ -4,3 +4,4 @@
 _site/*
 .ideas/
 _snap_md5.txt
+Gemfile.lock
