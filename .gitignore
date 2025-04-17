@@ -1,7 +1,5 @@
-.DS_Store
-*/.DS_Store
-.jekyll-cache
-_site/*
+**/.DS_Store
+.jekyll-cache/
+_site/
 .ideas/
-_snap_md5.txt
 Gemfile.lock
