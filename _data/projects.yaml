@@ -1,5 +1,5 @@
 projects:
-
+# ----SELECTED-----
   - title: "Motif-based clustering"
     thumbnail: "assets/projects/retail_clustering.jpg"
     url: "projects/retail_clustering.html"
@@ -9,7 +9,7 @@ projects:
     thumbnail: "assets/projects/2d_game.jpg"
     url: "projects/2d_game.html"
     status: "selected"  
-
+# ----ALL-----
   - title: "Imageeditor on android"
     thumbnail: "assets/projects/imageeditor.jpg"
     url: "projects/imageeditor.html"
