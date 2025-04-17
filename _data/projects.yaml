@@ -13,19 +13,19 @@ projects:
   - title: "Imageeditor on android"
     thumbnail: "assets/projects/imageeditor.jpg"
     url: "projects/imageeditor.html"
-    status: "past"  
+    status: "all"  
 
   - title: "citymapper of city of Paris"
     thumbnail: "assets/projects/citymapper.jpg"
     url: "projects/citymapper.html"
-    status: "past"  
+    status: "all"  
 
   - title: "visualization tools on python"
     thumbnail: "assets/projects/viz_tools.jpg"
     url: "projects/viz_tools.html"
-    status: "past" 
+    status: "all" 
 
   - title: "codeskulptor games"
     thumbnail: "assets/projects/blackjack.jpg"
     url: "projects/blackjack.html"
-    status: "past" 
+    status: "all" 
