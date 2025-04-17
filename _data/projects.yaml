@@ -3,12 +3,12 @@ projects:
   - title: "Motif-based clustering"
     thumbnail: "assets/projects/retail_clustering.jpg"
     url: "projects/retail_clustering.html"
-    status: "current"
+    status: "selected"
 
   - title: "2d_game"
     thumbnail: "assets/projects/2d_game.jpg"
     url: "projects/2d_game.html"
-    status: "current"  
+    status: "selected"  
 
   - title: "Imageeditor on android"
     thumbnail: "assets/projects/imageeditor.jpg"
