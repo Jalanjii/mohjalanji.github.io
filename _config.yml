@@ -1,8 +1,10 @@
 source:      .
 destination: ./_site
 includes:    ./_includes
-baseurl: /mohjalanji.github.io
+# baseurl: /mohjalanji.github.io
 
 collections:
   projects:
     output: true
+
+theme: jekyll-theme-minimal
