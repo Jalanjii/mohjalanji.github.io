@@ -9,23 +9,23 @@ projects:
     thumbnail: "assets/projects/2d_game.jpg"
     url: "projects/2d_game.html"
     status: "selected"  
-# ----ALL-----
+# ----RECENT-----
   - title: "Imageeditor on android"
     thumbnail: "assets/projects/imageeditor.jpg"
     url: "projects/imageeditor.html"
-    status: "all"  
+    status: "recent"  
 
   - title: "citymapper of city of Paris"
     thumbnail: "assets/projects/citymapper.jpg"
     url: "projects/citymapper.html"
-    status: "all"  
-
+    status: "recent"  
+# ----OLD-----
   - title: "visualization tools on python"
     thumbnail: "assets/projects/viz_tools.jpg"
     url: "projects/viz_tools.html"
-    status: "all" 
+    status: "old" 
 
   - title: "codeskulptor games"
     thumbnail: "assets/projects/blackjack.jpg"
     url: "projects/blackjack.html"
-    status: "all" 
+    status: "old" 
