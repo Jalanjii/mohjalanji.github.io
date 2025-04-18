@@ -3,3 +3,4 @@
 _site/
 .ideas/
 Gemfile.lock
+*.ipynb

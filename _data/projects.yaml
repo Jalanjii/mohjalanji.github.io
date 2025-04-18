@@ -1,31 +1,34 @@
 projects:
 # ----SELECTED-----
+ 
+# ----RECENT-----
   - title: "Motif-based clustering"
     thumbnail: "assets/projects/retail_clustering.jpg"
     url: "projects/retail_clustering.html"
-    status: "selected"
+    status: "recent"
 
-  - title: "2d_game"
-    thumbnail: "assets/projects/2d_game.jpg"
-    url: "projects/2d_game.html"
-    status: "selected"  
-# ----RECENT-----
-  - title: "Imageeditor on android"
-    thumbnail: "assets/projects/imageeditor.jpg"
-    url: "projects/imageeditor.html"
-    status: "recent"  
-
-  - title: "citymapper of city of Paris"
+# ----OLD-----
+  - title: "Paris CityMapper"
     thumbnail: "assets/projects/citymapper.jpg"
     url: "projects/citymapper.html"
-    status: "recent"  
-# ----OLD-----
-  - title: "visualization tools on python"
+    status: "old"  
+
+  - title: "Visualization Tools in Python"
     thumbnail: "assets/projects/viz_tools.jpg"
     url: "projects/viz_tools.html"
     status: "old" 
 
-  - title: "codeskulptor games"
+  - title: "Codeskulptor 2.0 Games"
     thumbnail: "assets/projects/blackjack.jpg"
     url: "projects/blackjack.html"
+    status: "old" 
+
+  - title: "Android Image editor"
+    thumbnail: "assets/projects/imageeditor.jpg"
+    url: "projects/imageeditor.html"
+    status: "old"  
+  
+  - title: "Android 2D Game"
+    thumbnail: "assets/projects/2d_game.jpg"
+    url: "projects/2d_game.html"
     status: "old" 

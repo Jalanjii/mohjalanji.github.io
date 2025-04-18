@@ -29,99 +29,103 @@ title: Home
   </ul>
 
   <div class="tab-content">
-    <div class="tab-pane active" id="projects-selected">
-      {% assign selected_projects = site.data.projects.projects | where: "status", "selected" %}
-      {% for project in selected_projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-                <div class="project-caption">
-                  <b>{{ project.title }}</b>
-                </div>
-
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
-      </div>
-    </div>
-
+    <!-- RECENT Projects Tab -->
     <div class="tab-pane" id="projects-recent">
       {% assign recent_projects = site.data.projects.projects | where: "status", "recent" %}
-      {% for project in recent_projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
+      {% if recent_projects.size == 0 %}
+        <p>No recent projects found.</p>
+      {% else %}
+        {% for project in recent_projects %}
+          {% assign index_modulo = forloop.index0 | modulo:3 %}
+          {% if index_modulo == 0 %}
+            <div class="row">
+          {% endif %}
 
           <div class="four columns">
             <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
+              <div class="project-image-container">
+                <a href="{{ project.url }}">
+                  <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                </a>
+              </div>
+              <div class="project-caption">
+                <b>{{ project.title }}</b>
+              </div>
             </div>
           </div>
 
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
+          {% if index_modulo == 2 or forloop.last %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
     </div>
 
+    <!-- OLD Projects Tab -->
     <div class="tab-pane" id="projects-old">
       {% assign old_projects = site.data.projects.projects | where: "status", "old" %}
-      {% for project in old_projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
+      {% if old_projects.size == 0 %}
+        <p>No old projects found.</p>
+      {% else %}
+        {% for project in old_projects %}
+          {% assign index_modulo = forloop.index0 | modulo:3 %}
+          {% if index_modulo == 0 %}
+            <div class="row">
+          {% endif %}
 
           <div class="four columns">
             <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
+              <div class="project-image-container">
+                <a href="{{ project.url }}">
+                  <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                </a>
+              </div>
+              <div class="project-caption">
+                <b>{{ project.title }}</b> <br/>
+                {{ project.subtitle }}
+              </div>
             </div>
           </div>
 
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
+          {% if index_modulo == 2 or forloop.last %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
     </div>
 
-  </div>
+    <!-- SELECTED Projects Tab -->
+    <div class="tab-pane active" id="projects-selected">
+      {% assign selected_projects = site.data.projects.projects | where: "status", "selected" %}
+      {% if selected_projects.size == 0 %}
+        <p>No selected projects found.</p>
+      {% else %}
+        {% for project in selected_projects %}
+          {% assign index_modulo = forloop.index0 | modulo:3 %}
+          {% if index_modulo == 0 %}
+            <div class="row">
+          {% endif %}
 
+          <div class="four columns">
+            <div class="project-container">
+              <div class="project-image-container">
+                <a href="{{ project.url }}">
+                  <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                </a>
+              </div>
+              <div class="project-caption">
+                <b>{{ project.title }}</b>
+              </div>
+            </div>
+          </div>
+
+          {% if index_modulo == 2 or forloop.last %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
 </div>
 
 <!-- ========== RESUME ========== -->
