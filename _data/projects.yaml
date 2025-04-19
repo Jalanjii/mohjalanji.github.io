@@ -7,6 +7,20 @@ projects:
     url: "projects/retail_clustering.html"
     status: "recent"
 
+  - title: "Real-time Anomaly Detection with TurboML"
+    thumbnail: "assets/projects/anomaly_rt.jpg"
+    url: "projects/anomaly_rt.html"
+    status: "recent" 
+
+  - title: "Attachment Styles"
+    thumbnail: "assets/projects/attach.jpg"
+    url: "projects/attach.html"
+    status: "recent"
+
+  - title: "Optimal Algorithms in C++"
+    thumbnail: "assets/projects/algo.jpg"
+    url: "projects/algo.html"
+    status: "old"
 # ----OLD-----
   - title: "Paris CityMapper"
     thumbnail: "assets/projects/citymapper.jpg"
@@ -28,7 +42,7 @@ projects:
     url: "projects/imageeditor.html"
     status: "old"  
   
-  - title: "Android 2D Game"
+  - title: "Covid Wonderer !"
     thumbnail: "assets/projects/2d_game.jpg"
     url: "projects/2d_game.html"
     status: "old" 
