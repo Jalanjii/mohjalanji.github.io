@@ -1,8 +1,8 @@
 ---
 layout: project
-title: "Attachment Styles Theory"
-subtitle: "Attachment through Survey Data"
+title: "Adult Attachment Application in R"
+subtitle: "Self-Report Measures of Adult Attachment"
 ---
 
-This project is about the reproduction of a classical Attachment Style theory paper in R, leading to 100% accuracy with the original paper. It will be soon uploaded to Github.
+This project is hosted on Github. You can take a look at it on [attachmentR GitHub Repo](https://github.com/Jalanjii/attachmentR)
 
