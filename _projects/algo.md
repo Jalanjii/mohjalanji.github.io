@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Optimal Algorithms in C++"
-subtitle: "From Addition to Decision Trees"
+subtitle: "From Strings to Decision Trees"
 ---
 
-The goal of this project was to implement classical algorithms with novel applications given time constraints. It will soon be uploaded to Github.
+This project is hosted on Github. You can take a look at it on [optimalalgocpp GitHub Repo](https://github.com/Jalanjii/optimalalgocpp)

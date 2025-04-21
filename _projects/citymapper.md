@@ -1,7 +1,7 @@
 ---
 layout: project
-title: "Visualization Tools in Python"
-subtitle: "Static & Interactive Viz tools"
+title: "Paris CityMapper"
+subtitle: "Finding the shortest path between two points in Paris"
 ---
 
-This project is hosted on Github. You can take a look on it at [DataViz GitHub Repo](https://github.com/Jalanjii/dataVisualization)
+This project is hosted on Github. You can take a look at it on [pariscitymapper GitHub Repo](https://github.com/Jalanjii/pariscitymapper)

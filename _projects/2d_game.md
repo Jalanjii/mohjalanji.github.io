@@ -1,7 +1,7 @@
 ---
 layout: project
-title: "Visualization Tools in Python"
-subtitle: "Static & Interactive Viz tools"
+title: "CovidWonderer!"
+subtitle: "When you feel bored & go make a game about it!"
 ---
 
-This project is hosted on Github. You can take a look on it at [DataViz GitHub Repo](https://github.com/Jalanjii/dataVisualization)
+This project is hosted on Github. You can take a look at it on [covidwonderer GitHub Repo](https://github.com/Jalanjii/covidwonderer)

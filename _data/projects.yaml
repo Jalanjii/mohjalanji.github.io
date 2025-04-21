@@ -1,48 +1,81 @@
 projects:
 # ----SELECTED-----
- 
+  - title: "DAG2LET <small>[2025]</small>"
+    thumbnail: "assets/projects/let.jpg"
+    url: "projects/let.html"
+    status: "selected"
+
+  - title: "TXT2CMD <small>[2024]</small>"
+    thumbnail: "assets/projects/nlc2cmd.jpg"
+    url: "projects/nlc2cmd.html"
+    status: "selected"
+  
+  - title: "Real-time Anomaly Detection with TurboML <small>[2025]</small>"
+    thumbnail: "assets/projects/anomaly_rt.jpg"
+    url: "projects/anomaly_rt.html"
+    status: "selected" 
 # ----RECENT-----
-  - title: "Motif-based clustering"
+  - title: "DAG2LET <small>[2025]</small>"
+    thumbnail: "assets/projects/let.jpg"
+    url: "projects/let.html"
+    status: "recent"
+
+  - title: "TXT2CMD <small>[2024]</small>"
+    thumbnail: "assets/projects/nlc2cmd.jpg"
+    url: "projects/nlc2cmd.html"
+    status: "recent"
+
+  - title: "AUTOSAR Cloner <small>[2024]</small>"
+    thumbnail: "assets/projects/autosar.jpg"
+    url: "projects/autosar.html"
+    status: "recent"
+
+  - title: "Motif-based Clustering <small>[2025]</small>"
     thumbnail: "assets/projects/retail_clustering.jpg"
     url: "projects/retail_clustering.html"
     status: "recent"
 
-  - title: "Real-time Anomaly Detection with TurboML"
+  - title: "Real-time Anomaly Detection with TurboML <small>[2025]</small>"
     thumbnail: "assets/projects/anomaly_rt.jpg"
     url: "projects/anomaly_rt.html"
     status: "recent" 
 
-  - title: "Attachment Styles"
+  - title: "Attachment Styles <small>[2021]</small>"
     thumbnail: "assets/projects/attach.jpg"
     url: "projects/attach.html"
     status: "recent"
 
-  - title: "Optimal Algorithms in C++"
+  - title: "Optimal Algorithms in C++ <small>[2020]</small>"
     thumbnail: "assets/projects/algo.jpg"
     url: "projects/algo.html"
     status: "old"
 # ----OLD-----
-  - title: "Paris CityMapper"
+  - title: "Paris CityMapper <small>[2023]</small>"
     thumbnail: "assets/projects/citymapper.jpg"
     url: "projects/citymapper.html"
     status: "old"  
 
-  - title: "Visualization Tools in Python"
+  - title: "Data Structures in C <small>[2023]</small>"
+    thumbnail: "assets/projects/datast.jpg"
+    url: "projects/datast.html"
+    status: "old" 
+
+  - title: "Visualization Tools in Python <small>[2023]</small>"
     thumbnail: "assets/projects/viz_tools.jpg"
     url: "projects/viz_tools.html"
     status: "old" 
 
-  - title: "Codeskulptor 2.0 Games"
+  - title: "Codeskulptor 2.0 Games <small>[2017]</small>"
     thumbnail: "assets/projects/blackjack.jpg"
     url: "projects/blackjack.html"
     status: "old" 
 
-  - title: "Android Image editor"
+  - title: "Android Image editor <small>[2020]</small>"
     thumbnail: "assets/projects/imageeditor.jpg"
     url: "projects/imageeditor.html"
     status: "old"  
   
-  - title: "Covid Wonderer !"
+  - title: "Covid Wonderer Android Game <small>[2020]</small>"
     thumbnail: "assets/projects/2d_game.jpg"
     url: "projects/2d_game.html"
     status: "old" 
