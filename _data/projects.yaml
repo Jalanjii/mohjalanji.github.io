@@ -5,7 +5,7 @@ projects:
     url: "projects/let.html"
     status: "selected"
   
-  - title: "Real-time Anomaly Detection with TurboML <small>[2025]</small>"
+  - title: "Real-time Financial Market Data Anomaly Detection <small>[2025]</small>"
     thumbnail: "assets/projects/anomaly_rt.jpg"
     url: "projects/anomaly_rt.html"
     status: "selected" 

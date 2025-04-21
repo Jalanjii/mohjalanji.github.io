@@ -1,8 +1,8 @@
 ---
 layout: project
 title: "Real-time Anomaly Detection"
-subtitle: "An Complete Deployment Pipeline"
+subtitle: "Trading Data Anomaly Detection: A Complete ML Deployment Pipeline"
 ---
 
-This project is about real-time anomaly detection with full deployment architecture, and will be soon uploaded to GitHub.
+This project is hosted on Github. You can take a look at it on [realtime_tradingDetection GitHub Repo](https://github.com/Jalanjii/realtime_tradingDetection)
 
