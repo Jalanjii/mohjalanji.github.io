@@ -4,5 +4,5 @@ title: "AUTOSAR ARXML Cloner"
 subtitle: "Systematic Duplocation of AUTOSAR ARXML Element"
 ---
 
-This project was realized with two main Python packages: lxml and argparse.
+This project is about an AUTOSAR CLassic Cloner Tool. The goal was to duplicate runnables, variables, and ports in a systematic way via the command-line interface.
 
