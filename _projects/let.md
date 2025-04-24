@@ -13,14 +13,14 @@ We take this DAG as input, and two constraints: number of cores **k**, and timin
   <img src="/assets/projects/dag.png" alt="Pipeline" width="800" height="600">
 </p>
 
-**Case 1**: We specify that we have **k = 2** cores available on our multicore platform and **t_const = 8000ms**. We get this corresponding Optimal LET schedule table:
+**Example 1**: We specify that we have **k = 2** cores available on our multicore platform and **t_const = 8000ms**. We get this corresponding Optimal LET schedule table:
 
 <p align="center">
   <img src="/assets/projects/k2.png" alt="Pipeline" width="750" height="600">
 </p>
 
 
-**Case 2**: We specify that we have **k = 3** cores available on our multicore platform and **t_const = 8000ms**. We get this corresponding Optimal LET schedule table (*It only took **6000ms**, since we have more resources!*):
+**Example 2**: We specify that we have **k = 3** cores available on our multicore platform and **t_const = 8000ms**. We get this corresponding Optimal LET schedule table (*It only took **6000ms**, since we have more resources!*):
 
 <p align="center">
   <img src="/assets/projects/k3.png" alt="Pipeline" width="750" height="600">
