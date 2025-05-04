@@ -1,5 +1,10 @@
 projects:
 # ----SELECTED-----
+  - title: "Insurance Claims Fraud Detection <small>[2025]</small>"
+    thumbnail: "assets/projects/insur.jpg"
+    url: "projects/insur.html"
+    status: "selected"
+
   - title: "DAG2LET <small>[2025]</small>"
     thumbnail: "assets/projects/let.jpg"
     url: "projects/let.html"
@@ -14,14 +19,19 @@ projects:
     thumbnail: "assets/projects/nlc2cmd.jpg"
     url: "projects/nlc2cmd.html"
     status: "selected"
-
 # ----RECENT-----
+  
+  - title: "Insurance Claims Fraud Detection <small>[2025]</small>"
+    thumbnail: "assets/projects/insur.jpg"
+    url: "projects/insur.html"
+    status: "recent"
+
   - title: "Real-time Anomaly Detection with TurboML <small>[2025]</small>"
     thumbnail: "assets/projects/anomaly_rt.jpg"
     url: "projects/anomaly_rt.html"
     status: "recent" 
 
-  - title: "Motif-based Clustering <small>[2025]</small>"
+  - title: "Motif-based Time Series Clustering for Customer Segmentation <small>[2025]</small>"
     thumbnail: "assets/projects/retail_clustering.jpg"
     url: "projects/retail_clustering.html"
     status: "recent"
@@ -62,7 +72,7 @@ projects:
     url: "projects/attach.html"
     status: "old"
 
-  - title: "Android Image editor <small>[2020]</small>"
+  - title: "Image Editor Android App <small>[2020]</small>"
     thumbnail: "assets/projects/imageeditor.jpg"
     url: "projects/imageeditor.html"
     status: "old"
