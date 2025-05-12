@@ -4,16 +4,16 @@ projects:
     thumbnail: "assets/projects/insur.jpg"
     url: "projects/insur.html"
     status: "selected"
-
-  - title: "DAG2LET <small>[2025]</small>"
-    thumbnail: "assets/projects/let.jpg"
-    url: "projects/let.html"
-    status: "selected"
   
   - title: "Real-time Financial Market Data Anomaly Detection <small>[2025]</small>"
     thumbnail: "assets/projects/anomaly_rt.jpg"
     url: "projects/anomaly_rt.html"
     status: "selected" 
+
+  - title: "DAG2LET <small>[2025]</small>"
+    thumbnail: "assets/projects/let.jpg"
+    url: "projects/let.html"
+    status: "selected"
 
   - title: "TXT2CMD <small>[2024]</small>"
     thumbnail: "assets/projects/nlc2cmd.jpg"
