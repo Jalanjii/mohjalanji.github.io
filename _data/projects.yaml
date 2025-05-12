@@ -67,7 +67,7 @@ projects:
     url: "projects/viz_tools.html"
     status: "old" 
 
-  - title: "Adult Attachment Theory <small>[2021]</small>"
+  - title: "Adult Attachment Styles <small>[2021]</small>"
     thumbnail: "assets/projects/attach.jpg"
     url: "projects/attach.html"
     status: "old"
