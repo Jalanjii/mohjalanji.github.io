@@ -21,12 +21,17 @@ projects:
     status: "selected"
 # ----RECENT-----
   
-  - title: "Insurance Claims Fraud Detection <small>[2025]</small>"
+  - title: "NLC2BASH With QLoRA Fine-tuning <small>[2025]</small>"
+    thumbnail: "assets/projects/bash.jpg"
+    url: "projects/bash.html"
+    status: "recent"
+
+  - title: "Real-time ML Insurance Claims Fraud Detection <small>[2025]</small>"
     thumbnail: "assets/projects/insur.jpg"
     url: "projects/insur.html"
     status: "recent"
 
-  - title: "Real-time Anomaly Detection with TurboML <small>[2025]</small>"
+  - title: "Real-time Statistical Anomaly Detection with Fink & Matrix Profile <small>[2025]</small>"
     thumbnail: "assets/projects/anomaly_rt.jpg"
     url: "projects/anomaly_rt.html"
     status: "recent" 
