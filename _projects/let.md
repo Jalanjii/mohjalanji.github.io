@@ -26,4 +26,4 @@ We take this DAG as input, and two constraints: number of cores **k**, and timin
   <img src="/assets/projects/k3.png" alt="Pipeline" width="750" height="600">
 </p>
 
-The solution is generalizable for any $$k \in \mathbb{N}$$
+For any $$n$$ nodes DAG, and any $$k$$ cores, the presented solution is generalizable for any $$n, k \in \mathbb{N}$$

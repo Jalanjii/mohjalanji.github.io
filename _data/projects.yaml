@@ -36,7 +36,7 @@ projects:
     url: "projects/insur.html"
     status: "recent"
 
-  - title: "Real-time Statistical Anomaly Detection with Fink & Matrix Profile <small>[2025]</small>"
+  - title: "Real-time Statistical Anomaly Detection with Fink & Kafka & Matrix Profile <small>[2025]</small>"
     thumbnail: "assets/projects/anomaly_rt.jpg"
     url: "projects/anomaly_rt.html"
     status: "recent" 
