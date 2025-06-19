@@ -129,6 +129,66 @@ title: Home
     </div>
   </div>
 </div>
+<!-- ========== CERTIFICATES ========== -->
+
+<div class="docs-section" id="certificates">
+  <h4>Certificates</h4>
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#certificates-professional">Professional</div></li>
+    <li><div class="button" data-ref="#certificates-mooc">MOOCs</div></li>
+  </ul>
+  <div class="tab-content">
+    <!-- <div class="tab-pane" id="certificates-mooc">
+      {% assign mooc_certs = site.data.certificates.certificates | where: "status", "mooc" %}
+      {% if mooc_certs.size == 0 %}
+        <p>No MOOC certificates found.</p>
+      {% else %}
+        <ul>
+          {% for cert in mooc_certs %}
+            <li>
+              <a href="{{ cert.url }}" target="_blank">{{ cert.title }}</a> — <span style="color:#666;font-size:1em;font-style:bold;">{{ cert.university }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div> -->
+    <div class="tab-pane" id="certificates-mooc">
+      {% assign mooc_certs = site.data.certificates.certificates | where: "status", "mooc" %}
+      {% if mooc_certs.size == 0 %}
+        <p>No MOOC certificates found.</p>
+      {% else %}
+        {% assign grouped_certs = mooc_certs | group_by: "subject" %}
+        {% for group in grouped_certs %}
+          <strong>{{ group.name }}</strong>
+          <ul>
+            {% for cert in group.items %}
+              <li>
+                <a href="{{ cert.url }}" target="_blank">{{ cert.title }}</a> — <span style="color:#666;font-size:1em;font-style:bold;">{{ cert.university }}</span>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endfor %}
+      {% endif %}
+    </div>
+
+    <div class="tab-pane active" id="certificates-professional">
+      {% assign professional_certs = site.data.certificates.certificates | where: "status", "professional" %}
+      {% if professional_certs.size == 0 %}
+        <p>No professional certificates found.</p>
+      {% else %}
+        <ul>
+          {% for cert in professional_certs %}
+            <li>
+              <a href="{{ cert.url }}" target="_blank">{{ cert.title }}</a> — <span style="color:#666;font-size:1em;font-style:bold;">{{ cert.university }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+
 
 <!-- ========== RESUME ========== -->
 <div class="docs-section" id="resume">
@@ -155,3 +215,4 @@ title: Home
     {% endfor %}
   </ul>
 </div>
+
