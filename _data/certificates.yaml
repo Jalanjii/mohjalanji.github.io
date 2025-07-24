@@ -41,6 +41,12 @@ certificates:
   url: "https://www.coursera.org/account/accomplishments/certificate/MPWNN4MBAXER"
   subject: "Computer Science"
   status: "mooc"
+
+- title: "Programming for Everybody"
+  university: "University of Michigan"
+  url: "https://www.coursera.org/account/accomplishments/verify/A2G2AMYGU2"
+  subject: "Computer Science"
+  status: "mooc" 
   
 - title: "Introduction to Computer Science and Programming Using Python"
   university: "MIT"
@@ -70,8 +76,8 @@ certificates:
   university: "Rice University"
   url: "https://www.coursera.org/account/accomplishments/certificate/PRFAXJ6MFD7Y"
   subject: "Computer Science"
-  status: "mooc"
-  
+  status: "mooc" 
+
 - title: "The Data Scientist’s Toolbox"
   university: "The Johns Hopkins University"
   url: "https://www.coursera.org/account/accomplishments/certificate/3K7QPVTR7Y"
@@ -101,6 +107,12 @@ certificates:
 - title: "Introduction to Logic"
   university: "Stanford University"
   url: "https://www.coursera.org/account/accomplishments/certificate/A7A9EACQGTM2"
+  subject: "Mathematics"
+  status: "mooc"
+
+- title: "Measuring Causal Effects in the Social Sciences"
+  university: "University of Copenhagen"
+  url: "https://www.coursera.org/account/accomplishments/certificate/2FQUCGG952"
   subject: "Mathematics"
   status: "mooc"
 
@@ -148,62 +160,115 @@ certificates:
   subject: "Neuroscience & Psychology"
   status: "mooc"
 
-- title: "Emotions: A Philosophical Introduction"
-  university: "Universitat Autònoma de Barcelona"
-  url: "https://www.coursera.org/account/accomplishments/certificate/NZWTY5W2H7"
-  subject: "Neuroscience & Psychology"
-  status: "mooc"
-
 - title: "Understanding Violence"
   university: "Emory University"
   url: "https://www.coursera.org/account/accomplishments/certificate/LAA4UU6VGT"
   subject: "Neuroscience & Psychology"
   status: "mooc"
 
-- title: "Measuring Causal Effects in the Social Sciences"
-  university: "University of Copenhagen"
-  url: "https://www.coursera.org/account/accomplishments/certificate/2FQUCGG952"
-  subject: "Neuroscience & Psychology"
+# --Humanities & Social Science--
+
+- title: "A Brief History of Humankind"
+  university: "Hebrew University of Jerusalem"
+  url: "https://coursera.org/verify/TZQBJNMJS9"
+  subject: "Humanities & Social Science"
+  status: "mooc"
+
+- title: "Introduction to Philosophy"
+  university: "University of Edinburgh"
+  url: "https://www.coursera.org/account/accomplishments/verify/WGUSLW5TR3"
+  subject: "Humanities & Social Science"
+  status: "mooc"
+
+- title: "Philosophy and the Sciences"
+  university: "University of Edinburgh"
+  url: "https://www.coursera.org/account/accomplishments/verify/947C8YQ9HF"
+  subject: "Humanities & Social Science"
+  status: "mooc" 
+
+- title: "Introduction to Philosophy: God, Knowledge and Consciousness"
+  university: "MIT"
+  url: "https://verify.edx.org/cert/d2edc7438b5849038b3ee76db5e97d42"
+  subject: "Humanities & Social Science"
+  status: "mooc"
+
+- title: "Revolutionary Ideas: An Introduction to Legal and Political Philosophy"
+  university: "University of Pennsylvania"
+  url: "https://www.coursera.org/account/accomplishments/verify/KEKZEJNKRM"
+  subject: "Humanities & Social Science"
+  status: "mooc"
+
+- title: "Think Again: How to Reason and Argue"
+  university: "Duke University"
+  url: "https://www.coursera.org/account/accomplishments/verify/N55YQY52TU"
+  subject: "Humanities & Social Science"
+  status: "mooc"
+
+- title: "Technology and Ethics"
+  university: "The Ohio State University"
+  url: "https://drive.google.com/file/d/1C8gVWRw4SivHRKJOUyRjdNqVxFy4EDv9/view?usp=sharing"
+  subject: "Humanities & Social Science"
+  status: "mooc"
+
+- title: "Emotions: A Philosophical Introduction"
+  university: "Universitat Autònoma de Barcelona"
+  url: "https://www.coursera.org/account/accomplishments/certificate/NZWTY5W2H7"
+  subject: "Humanities & Social Science"
+  status: "mooc"
+
+- title: "Critical Thinking in Global Challenges"
+  university: "University of Edinburgh"
+  url: "https://coursera.org/verify/BLKALS2BV4"
+  subject: "Humanities & Social Science"
+  status: "mooc"
+
+- title: "Classics of Chinese Humanities: Guided Readings"
+  university: "The Chinese University Of Hong Kong"
+  url: "https://drive.google.com/file/d/1KGL959NA-wPbzb5qeR5uwnr2g0GeLgaH/view?usp=sharing"
+  subject: "Humanities & Social Science"
+  status: "mooc"
+
+- title: "Cracking the Creativity Code"
+  university: "Technion - Israel Institute of Technology"
+  url: "https://coursera.org/verify/RE86STN4BC"
+  subject: "Humanities & Social Science"
   status: "mooc"
 
 - title: "Questionnaire Design for Social Surveys"
   university: "University of Michigan"
   url: "https://www.coursera.org/account/accomplishments/certificate/74YV4UHUSY"
-  subject: "Neuroscience & Psychology"
+  subject: "Humanities & Social Science"
   status: "mooc"
 
-# --Humanities & Social Science--
+- title: "Practicing Tolerance in a Religious Society"
+  university: "University of Maryland"
+  url: "https://www.coursera.org/account/accomplishments/verify/WMBS6PEQJV"
+  subject: "Humanities & Social Science"
+  status: "mooc"
 
-# - title: "A Brief History of Humankind"
-#   university: "Hebrew University of Jerusalem"
-#   url: "https://coursera.org/verify/TZQBJNMJS9"
-#   subject: "Humanities & Social Science"
-#   status: "mooc"
+- title: "Understanding Research Methods"
+  university: "University of London"
+  url: "https://www.coursera.org/account/accomplishments/verify/UV7FNV5W55"
+  subject: "Humanities & Social Science"
+  status: "mooc"
 
-# - title: "Philosophy and the Sciences"
-#   university: "University of Edinburgh"
-#   url: "https://coursera.org/verify/947C8YQ9HF"
-#   subject: "Humanities & Social Science"
-#   status: "mooc"
+- title: "Creative Problem Solving"
+  university: "University of Minnesota"
+  url: "https://www.coursera.org/account/accomplishments/verify/7PG6S3UY6X"
+  subject: "Humanities & Social Science"
+  status: "mooc"
+  
+- title: "Understanding Europe: Why It Matters and What It Can Offer You"
+  university: "HEC Paris"
+  url: "https://drive.google.com/file/d/1kZZxTdUilNXWp2fGjYx4p8wTOfkE36QO/view?usp=sharing"
+  subject: "Humanities & Social Science"
+  status: "mooc"
 
-# - title: "Critical Thinking in Global Challenges"
-#   university: "University of Edinburgh"
-#   url: "https://coursera.org/verify/BLKALS2BV4"
-#   subject: "Humanities & Social Science"
-#   status: "mooc"
-
-# - title: "Classics of Chinese Humanities: Guided Readings"
-#   university: "The Chinese University Of Hong Kong"
-#   url: "https://drive.google.com/file/d/1KGL959NA-wPbzb5qeR5uwnr2g0GeLgaH/view?usp=sharing"
-#   subject: "Humanities & Social Science"
-#   status: "mooc"
-
-# - title: "Cracking the Creativity Code"
-#   university: "Technion - Israel Institute of Technology"
-#   url: "https://coursera.org/verify/RE86STN4BC"
-#   subject: "Humanities & Social Science"
-#   status: "mooc"
-
+- title: "Learning How to Learn"
+  university: "UC San Diego"
+  url: "https://www.coursera.org/account/accomplishments/verify/NEG2NU9438"
+  subject: "Humanities & Social Science"
+  status: "mooc"
 
 
 # ----Professional-----
