@@ -278,8 +278,8 @@ certificates:
   url: "https://graphacademy.neo4j.com/c/8d80394c-5517-492f-a532-622c83671ed9/"
   status: "professional"
 
-- title: "AWS Certified Solution Architect <small>(Expected Sep 2025)</small>"
-  university: "AWS"
+- title: "AWS Certified Solution Architect"
+  university: "AWS - <small>Expected soon...</small>"
   url: "https://aws.amazon.com/fr/certification/certified-solutions-architect-associate/"
   status: "professional"
 
