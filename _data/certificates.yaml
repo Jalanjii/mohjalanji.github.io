@@ -228,12 +228,6 @@ certificates:
   subject: "Humanities & Social Science"
   status: "mooc"
 
-- title: "Cracking the Creativity Code"
-  university: "Technion - Israel Institute of Technology"
-  url: "https://coursera.org/verify/RE86STN4BC"
-  subject: "Humanities & Social Science"
-  status: "mooc"
-
 - title: "Questionnaire Design for Social Surveys"
   university: "University of Michigan"
   url: "https://www.coursera.org/account/accomplishments/certificate/74YV4UHUSY"
