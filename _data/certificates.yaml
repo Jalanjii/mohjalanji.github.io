@@ -168,11 +168,11 @@ certificates:
 
 # --Humanities & Social Science--
 
-- title: "A Brief History of Humankind"
-  university: "Hebrew University of Jerusalem"
-  url: "https://coursera.org/verify/TZQBJNMJS9"
-  subject: "Humanities & Social Science"
-  status: "mooc"
+# - title: "A Brief History of Humankind"
+#   university: "Hebrew University of Jerusalem"
+#   url: "https://coursera.org/verify/TZQBJNMJS9"
+#   subject: "Humanities & Social Science"
+#   status: "mooc"
 
 - title: "Introduction to Philosophy"
   university: "University of Edinburgh"
