@@ -9,7 +9,7 @@ experiences:
 - place: "Data ScienceTech Institute"
   time: "2023 - 2025"
   title: "Master's Degree"
-  subtitle: "Major: Data Science & Artificial Intelligence <br/> GPA: 4.0/4.0"
+  subtitle: "Data Science & Artificial Intelligence <br/> GPA: 4.0/4.0"
   category: "school"
 
 - place: "APTIV"
@@ -21,7 +21,7 @@ experiences:
 - place: "Université Sorbonne Paris Nord"
   time: "2021 - 2023"
   title: "Bachelor's Degree - Dual"
-  subtitle: "Major: Computer Science <br/> Track: Data Analytics <br/> Merit Scholarship: Bilateral & Erasmus" # <br/> GPA: 3.7/4.0
+  subtitle: "Computer Science <br/> Merit Scholarship: Bilateral & Erasmus <br/> GPA: 3.7/4.0"
   category: "school"
 
 - place: "ETIS lab"
@@ -33,13 +33,13 @@ experiences:
 - place: "Seconda Università di Napoli"
   time: "2020 – 2023"
   title: "Bachelor's Degree"
-  subtitle: "Major: Statistics & Data Analytics <br/> Thesis: Matrix Profile Motif-based Clustering for Retail Time Series <br/> GPA: 3.7/4.0"
+  subtitle: "Statistics & Data Analytics <br/> Thesis: Matrix Profile Motif-based Clustering for Retail Time Series <br/> GPA: 3.7/4.0"
   category: "school"
 
 - place: "Tomsk State University"
   time: "2019 – 2020"
   title: "Bachelor's Degree (1<sup>st</sup> year)"
-  subtitle: "Major: Software Engineering <br/> GPA: 3.8/4.0"
+  subtitle: "Software Engineering <br/> GPA: 3.8/4.0"
   category: "school"
 
 - place: "PI Marketing"
