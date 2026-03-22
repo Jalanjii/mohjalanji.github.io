@@ -4,6 +4,22 @@ a {
   text-decoration: none; }
 .container {
   max-width: 800px; }
+
+/*  ================ Cover Photo  ================ */
+.cover-section {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 57%;
+}
 .header {
   margin-top: 60px;
   margin-bottom: 60px; 
@@ -17,8 +33,8 @@ a {
   margin-top: 5px; }
 .paper {
   margin-bottom: 20px }
-.paper .title {
-  /*text-transform: uppercase; */}
+/* .paper .title {
+  text-transform: uppercase; } */
 .paper p {
   margin-bottom: 2px }
 .paper-buttons {
