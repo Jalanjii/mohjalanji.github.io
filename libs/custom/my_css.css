@@ -64,6 +64,9 @@ a {
   border-top: 1px solid #eee;
   padding: 15px 0 40px 0;
   margin-bottom: 0;}
+.footer-note {
+  font-size: small;
+  white-space: nowrap; }
 .navbar {
   display: none; }
 .title-subtitle h3 {

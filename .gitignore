@@ -4,3 +4,5 @@ _site/
 .ideas/
 Gemfile.lock
 *.ipynb
+.bundle/
+vendor/

@@ -1,5 +1,11 @@
 experiences:
 
+- place: "Georgia Institute of Technology"
+  time: "2026 - 2028"
+  title: "Master's Degree"
+  subtitle: "Analytics & Statistics <br/> GPA: ---"
+  category: "school"
+
 - place: "PrediSurge"
   time: "2025 - Now"
   title: "Data Scientist & AI Engineer (LLMs)"
@@ -9,7 +15,7 @@ experiences:
 - place: "Data ScienceTech Institute"
   time: "2023 - 2025"
   title: "Master's Degree"
-  subtitle: "Data Science & Artificial Intelligence <br/> GPA: 4.0/4.0"
+  subtitle: "Artificial Intelligence <br/> GPA: 4.0/4.0"
   category: "school"
 
 - place: "APTIV"
@@ -33,7 +39,7 @@ experiences:
 - place: "Seconda Università di Napoli"
   time: "2020 – 2023"
   title: "Bachelor's Degree"
-  subtitle: "Statistics & Data Analytics <br/> GPA: 3.7/4.0"
+  subtitle: "Statistics & Data Science <br/> GPA: 3.7/4.0"
   category: "school"
 
 - place: "PI Marketing"
