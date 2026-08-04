@@ -1,8 +1,8 @@
 experiences:
 
 - place: "Georgia Institute of Technology"
-  time: "2026 - 2028"
-  title: "Master's Degree"
+  time: "2026 - Now"
+  title: "Master of Science"
   subtitle: "Analytics & Statistics <br/> GPA: ---"
   category: "school"
 
@@ -14,7 +14,7 @@ experiences:
 
 - place: "Data ScienceTech Institute"
   time: "2023 - 2025"
-  title: "Master's Degree"
+  title: "Master of Science"
   subtitle: "Artificial Intelligence <br/> GPA: 4.0/4.0"
   category: "school"
 
@@ -26,7 +26,7 @@ experiences:
 
 - place: "Université Sorbonne Paris Nord"
   time: "2021 - 2023"
-  title: "Bachelor's Degree"
+  title: "Bachelor of Science"
   subtitle: "Computer Science <br/> GPA: 3.7/4.0"
   category: "school"
 
@@ -38,7 +38,7 @@ experiences:
 
 - place: "Seconda Università di Napoli"
   time: "2020 – 2023"
-  title: "Bachelor's Degree"
+  title: "Bachelor of Science"
   subtitle: "Statistics & Data Science <br/> GPA: 3.7/4.0"
   category: "school"
 
