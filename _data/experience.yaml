@@ -1,10 +1,10 @@
 experiences:
 
-# - place: "Georgia Institute of Technology"
-#   time: "2026 - Now"
-#   title: "Master of Science"
-#   subtitle: "Analytics & Statistics <br/> GPA: ---"
-#   category: "school"
+- place: "Georgia Institute of Technology"
+  time: "2026 - Now"
+  title: "Master of Science"
+  subtitle: "Analytics & Statistics <br/> GPA: ---"
+  category: "school"
 
 - place: "PrediSurge"
   time: "2025 - Now"
